@@ -11,7 +11,7 @@ export class CreateRecipeDto {
 
     @IsArray()
     ingredients: IngredientDto[]
-    
+
     @IsArray()
     steps: string[]
 }
